@@ -1,0 +1,52 @@
+/* backGround.css */
+
+.landing-page {
+    position: relative;
+    height: 100vh; /* Set the height of the landing page to the viewport height */
+    background-image: url('../images/Foods.jpg'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    color: white;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    
+  }
+  
+  .scroll-down {
+    height: 100vh; /* Set the height of the scroll down section to the viewport height */
+    background-color:#f5c9c6; /* Default background color */
+    color: black;
+  }
+  
+  .organico {
+    font-size: 7em; /* Set font size */
+    font-family: 'Hammersmith One', sans-serif; /* Set font family */
+    margin: 0; /* Remove default margin */
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #fff; /* Set text color */
+    text-shadow: 
+      -2px -2px 0 #000, /* Top left shadow */
+      2px -2px 0 #000, /* Top right shadow */
+      -2px 2px 0 #000, /* Bottom left shadow */
+      2px 2px 0 #000; /* Bottom right shadow */
+  }
+  
+  
+  .juiceE {
+    font-size: 2em;
+    font-family: 'Solway', sans-serif;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #fff; /* Set text color */
+    text-shadow: 
+      -2px -2px 0 #000, /* Top left shadow */
+      2px -2px 0 #000, /* Top right shadow */
+      -2px 2px 0 #000, /* Bottom left shadow */
+      2px 2px 0 #000; /* Bottom right shadow */
+  }
+  /* Additional styles for other sections as needed */
+  
