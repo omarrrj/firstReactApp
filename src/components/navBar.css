@@ -47,7 +47,7 @@
   color: black;
 }
 
-@media (min-width: 991px) {
+
 .nav-link::before{
   content: "";
   position: absolute;
@@ -64,5 +64,5 @@
 .nav-link:hover::before , .nav-link.active::before {
   width: 100%;
   visibility: visible;
-}
+
 }

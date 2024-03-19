@@ -1,0 +1,53 @@
+/* AboutUs.css */
+.about-us {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+}
+
+.about-us-container {
+    display: flex; /* Use flexbox for container */
+    justify-content: space-between; /* Space between children */
+    align-items: flex-start; /* Align items to the left */
+    margin-right: 20px; /* Add some space between container and the right edge */
+}
+
+.about-us-image {
+    width: 270px; /* Set image width */
+    height: 300px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add spacing between images */
+    display: flex;
+    flex-direction: column; /* Arrange images vertically */
+    align-items: flex-start; /* Align images to the left */
+    margin-right: 20px;
+    border-radius: 20%; /* Rounded border */
+    overflow: hidden; /* Hide overflow for perfect circle */
+    border: 2px solid #009970;
+}
+
+.about-us-image-lower {
+    width: 270px;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 150px;
+    flex-direction: column; /* Arrange images vertically */
+    border-radius: 20%; /* Rounded border */
+    overflow: hidden; /* Hide overflow for perfect circle */
+    border: 2px solid #009970;
+}
+
+.about-us-box {
+    color: #324f4d;
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+    padding: 20px; /* Add padding */
+    width: 70%; /* Set width */
+    max-width: 600px; /* Limit maximum width */
+    margin-top: 150px; /* Add margin to top */
+    text-align: left; 
+}
+
+.about-us-content {
+    text-align: justify;
+    /* Justify text */
+}
+
