@@ -1,7 +1,8 @@
-//import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/navBar.js';
 import LandingPage from './components/landingPage.js';
+
 
 function App() {
   return (
