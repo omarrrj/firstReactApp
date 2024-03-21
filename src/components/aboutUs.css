@@ -2,6 +2,7 @@
 .about-us {
     display: flex;
     justify-content: center; /* Center content horizontally */
+    margin-top: 50px;
 }
 
 .about-us-container {
@@ -25,7 +26,7 @@
 }
 
 .about-us-image-lower {
-    width: 270px;
+    width: 280px;
     height: 300px;
     margin-right: 20px;
     margin-top: 150px;
@@ -42,7 +43,7 @@
     padding: 20px; /* Add padding */
     width: 70%; /* Set width */
     max-width: 600px; /* Limit maximum width */
-    margin-top: 150px; /* Add margin to top */
+    margin-top: 10px; /* Add margin to top */
     text-align: left; 
 }
 

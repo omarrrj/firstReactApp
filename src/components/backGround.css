@@ -21,31 +21,32 @@
     color: black;
   }
   
+  
   .organico {
     font-size: 7em; /* Set font size */
-    font-family: 'Hammersmith One', sans-serif; /* Set font family */
+    font-family: "Red Hat Display", sans-serif; /* Set font family */
     margin: 0; /* Remove default margin */
     text-transform: uppercase; /* Convert text to uppercase */
-    color: #fff; /* Set text color */
+    color: #e5e5e5; /* Set text color */
     text-shadow: 
-      -2px -2px 0 #000, /* Top left shadow */
-      2px -2px 0 #000, /* Top right shadow */
-      -2px 2px 0 #000, /* Bottom left shadow */
-      2px 2px 0 #000; /* Bottom right shadow */
+       -2px -2px 0 #a6a6a6, /* Top left shadow */
+       2px -2px 0 #a6a6a6, /* Top right shadow */
+       -2px 2px 0 #a6a6a6, /* Bottom left shadow */
+      2px 2px 0 #a6a6a6; /*Bottom right shadow */ 
   }
   
   
   .juiceE {
     font-size: 2em;
-    font-family: 'Solway', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     margin-top: 0.5em;
     text-transform: uppercase; /* Convert text to uppercase */
-    color: #fff; /* Set text color */
+    color: #e5e5e5; /* Set text color */
     text-shadow: 
-      -2px -2px 0 #000, /* Top left shadow */
-      2px -2px 0 #000, /* Top right shadow */
-      -2px 2px 0 #000, /* Bottom left shadow */
-      2px 2px 0 #000; /* Bottom right shadow */
+      -2px -2px 0 #a6a6a6, /* Top left shadow */
+      2px -2px 0 #a6a6a6, /* Top right shadow */
+      -2px 2px 0 #a6a6a6, /* Bottom left shadow */
+      2px 2px 0 #a6a6a6; /* Bottom right shadow */
   }
   /* Additional styles for other sections as needed */
   

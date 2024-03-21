@@ -14,8 +14,7 @@ function AboutUs() {
   <h2 className="about-us-header">About Us</h2>
   <div className="about-us-content">
     <p>
-    Organico is a healthy, plant-based juice bar and eatery serving up a range of breakfast,brunch and daytime dishes alongside a range 
-        of homemade cakes and an extensive smoothie menu.    </p>
+    Welcome to Organico, where we're passionate about serving healthy, plant-based options that nourish both body and soul. Our vibrant juice bar and eatery offer a diverse selection of breakfast, brunch, and daytime dishes, all carefully curated to tantalize your taste buds and fuel your day. Indulge in our delectable homemade cakes, lovingly crafted with wholesome ingredients and bursting with flavor. Quench your thirst with our extensive smoothie menu, featuring an array of refreshing blends packed with vitamins and nutrients. At Organico, we're committed to providing delicious, nutrient-rich options that support your wellness journey. Join us and experience the goodness of plant-based living in every bite and sip." </p>
     </div>
   </div>
 </div>

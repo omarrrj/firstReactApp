@@ -1,0 +1,60 @@
+.menu-section {
+    display: flex;
+    justify-content: center;
+   
+    padding: 50px 0;
+  }
+  
+  .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+  }
+  
+  .text-content {
+    float: left;/* Adjust margin to create space between images and text */
+    margin-right: 30px;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .images-container {
+    display: flex;
+  }
+  
+  .images {
+    width: 240px;
+    height: 270px;
+    margin-right: 20px;
+    border-radius: 20%; /* Rounded border */
+    overflow: hidden; /* Hide overflow for perfect circle */
+    border: 2px solid #009970;
+  }
+  
+  .menu-header {
+    color: #324f4d;
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+  }
+  
+  .paragraph {
+    color: #324f4d;
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+  }
+  
+  button {
+    background-color: #324f4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b5e8a4;;
+  }
+  
+  

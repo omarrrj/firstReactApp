@@ -1,0 +1,57 @@
+.carouselR{
+    margin-top: 150px;
+    color: black;
+}
+
+  .carousel-inner {
+    text-align: center; /* Center text in the carousel */
+  }
+  
+  .carousel-item {
+    padding: 20px;
+  }
+
+  .reviewName {
+    color: #324f4d;
+    font-family: 'Hammersmith One';
+    text-transform: uppercase;
+  }
+
+  .reviewText{
+    display: flex; /* Use flexbox for container */
+    justify-content: space-between; /* Space between children */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+
+  .review1{
+    width: 400px;
+    height: 400px;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  
+  .customer-img {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    border-radius: 50%; /* Make the image round */
+  }
+  
+  .stars{
+    margin-top: 10px;
+  }
+  
+  .bi-star-fill {
+    color: gold; /* Change the color to gold */
+  }
+  

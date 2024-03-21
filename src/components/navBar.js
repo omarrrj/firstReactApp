@@ -7,9 +7,9 @@ import logo from '../images/logo.png'
 
 function Navbar() {
   return (
-    <><nav className="navbar navbar-expand-lg">
+    <><nav className="navbar  navbar-expand-lg ">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#home">
           <img src={logo} alt="Logo" />
         </a>
 
@@ -23,21 +23,21 @@ function Navbar() {
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
-              <li className="nav-item">
-                <a className="nav-link mx-lg-2 active " aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">Menu</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">Where to Find Us</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">Review</a>
-              </li>
+            <li className="nav-item">
+          <a className="nav-link mx-lg-2 active" href="#home">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link mx-lg-2" href="#about">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link mx-lg-2" href="#menu">Menu</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link mx-lg-2" href="#location">Where to Find Us</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link mx-lg-2" href="#reviews">Review</a>
+        </li>
             </ul>
           </div>
         </div>
